@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+:root {
+    --color-bg: rgba(238, 237, 237, 0.835);
+    --color-primary: #feb701;
+    --color-hover: #d4a327;
+    --color-accent: #00CED1;
+    --color-error: #E74C3C;
+    --color-success: #2ECC71;
+    --color-border: #444;
+    --color-text: #444;
+}
+
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+p, h1, h2, h3, h4, h5, h6 {
+    color: var(--color-text);
+}

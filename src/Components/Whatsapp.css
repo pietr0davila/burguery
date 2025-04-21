@@ -1,0 +1,34 @@
+.wpp-cta {
+    background-color: var(--color-bg);
+    padding: 1rem;
+}
+
+.wpp-cta h4 {
+    margin: 0;
+}
+
+.wpp-cta .button-cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wpp-cta button {
+    height: 2.5rem;
+    width: clamp(200px, 50%, 400px); /* largura fluida */
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: #128c7e;
+    font-size: clamp(1rem, 2.5vw, 1.25rem); /* tamanho de fonte responsivo */
+    padding: 0 1rem;
+    margin: 1rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.wpp-cta button i {
+    font-size: 1.5em;
+}

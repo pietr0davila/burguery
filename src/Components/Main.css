@@ -1,0 +1,31 @@
+main {
+  position: relative;
+  background-image: url("/src/assets/banner.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+  color: white;
+  padding: 60px 10px;
+  text-align: center;
+  height: 30vh;
+}
+.overlay {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; /* cobre o main inteiro */
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 0;
+
+}
+main h1 {
+  margin-left: 25px;
+  margin-top: 40px;
+  font-size: 30px;
+  height: 50%;
+  color: var(--color-primary);
+  padding-top: 25px;
+}

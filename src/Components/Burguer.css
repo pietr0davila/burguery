@@ -1,0 +1,42 @@
+.burguer {
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 1rem;
+    transition: scale 0.2s ease-in-out;
+  }
+  
+  .burguer:hover {
+    scale: 1.05;
+  }
+  
+  .burguer img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+  }
+  
+  .burguer h2 {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: #222;
+  }
+  
+  .burguer input[type="button"] {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .burguer input[type="button"]:hover {
+    background-color: #e64a19;
+  }
+  
