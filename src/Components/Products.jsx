@@ -1,6 +1,6 @@
 import './Products.css'
 import Burguer from './Burguer.jsx'
-import burguerImage from '../assets/burguer-template.jpg'
+import burguerImage from '/burguer-template.jpg'
 
 export default function Products() {
     return (

@@ -1,6 +1,6 @@
 main {
   position: relative;
-  background-image: url("/src/assets/banner.jpg");
+  background-image: url("/banner.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;

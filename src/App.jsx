@@ -3,8 +3,8 @@ import './style.css'
 import Header from './Components/Header.jsx'
 import Main from './Components/Main.jsx'
 import Products from './Components/Products.jsx'
-import Contacts from './Components/Contact.jsx'
-import Whatsapp from './Components/Whatsapp.jsx'
+import Apresentation from './Components/Apresentation.jsx'
+import Contact from './Components/Contact.jsx'
 import Footer from './Components/Footer.jsx'
 
 function App() {
@@ -14,8 +14,8 @@ function App() {
       <Header />
       <Main />
       <Products />
-      <Contacts />
-      <Whatsapp />
+      <Apresentation />
+      <Contact />
       <Footer burguerShop="{Nome da hamburgueria}"/>
     </>
   )

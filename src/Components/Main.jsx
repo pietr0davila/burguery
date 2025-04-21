@@ -5,7 +5,7 @@ export default function Main() {
             <div className="overlay"></div>
             <div className="text">
             <h1>Descubra <span>sua próxima refeição</span></h1>
-            <p style={{color: "var(--color-error)"}}>Não faz parte do produto final</p>
+            <p style={{color: "var(--color-error)"}}>Banner sujeito a alterações</p>
             </div>
         </main>
     )
